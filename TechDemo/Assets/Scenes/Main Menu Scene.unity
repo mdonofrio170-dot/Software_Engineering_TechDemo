@@ -460,7 +460,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 165644274}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 22507748}
+        m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Settings Scene
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &165644274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -783,7 +795,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 558067935}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 22507748}
+        m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Controls Scene
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &558067935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1180,7 +1204,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 743639277}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 22507748}
+        m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Credits Scene
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &743639277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1571,7 +1607,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1143158658}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 22507748}
+        m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Character Scene
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1143158658
 MonoBehaviour:
   m_ObjectHideFlags: 0
