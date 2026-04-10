@@ -111,6 +111,11 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+    public void SetWorking(bool value)
+    {
+        animator.SetBool("Working", value);
+    }
+
     private void OnAnimatorMove()
     {
         if (isGrounded)
