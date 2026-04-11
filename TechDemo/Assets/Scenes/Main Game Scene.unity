@@ -2380,7 +2380,7 @@ PrefabInstance:
       addedObject: {fileID: 1535797383}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c334f46cb1dbe87439548405d68bc50e, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1535797384}
+      addedObject: {fileID: 1535797388}
   m_SourcePrefab: {fileID: 100100000, guid: c334f46cb1dbe87439548405d68bc50e, type: 3}
 --- !u!1 &1535797382 stripped
 GameObject:
@@ -2412,7 +2412,12 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.87, z: 0}
---- !u!114 &1535797384
+--- !u!4 &1535797386 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c334f46cb1dbe87439548405d68bc50e, type: 3}
+  m_PrefabInstance: {fileID: 1535797381}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1535797388
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2421,18 +2426,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1535797382}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b633e7f9f5b2ef40a3ee21880800e32, type: 3}
+  m_Script: {fileID: 11500000, guid: 1318c42cd8150ac4e95a2906d5e29e95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   rotationSpeed: 720
   jumpSpeed: 5
   jumpHorizontalSpeed: 5
   jumpGracePeriod: 0.2
---- !u!4 &1535797386 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c334f46cb1dbe87439548405d68bc50e, type: 3}
-  m_PrefabInstance: {fileID: 1535797381}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1665802779
 PrefabInstance:
   m_ObjectHideFlags: 0
